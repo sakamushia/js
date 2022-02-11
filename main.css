@@ -1,0 +1,696 @@
+body {
+  background-image: url(assets/css/images/overlay.png),
+    linear-gradient(25deg, rgb(227, 118, 130) 25%, rgb(95, 77, 147) 75%);
+  font-family: Source Sans Pro, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2,
+h3,
+p {
+  color: rgb(34, 33, 33);
+  font-weight: normal;
+}
+
+header {
+  text-align: center;
+  width: 40%;
+  color: #fff;
+  margin: 3em auto;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+}
+
+header a {
+  color: rgba(255, 255, 255, 0.65);
+  border-bottom: dotted 1px rgba(255, 255, 255, 0.65);
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+header a:hover {
+  color: rgba(255, 255, 255, 0.932);
+  border-bottom-color: transparent;
+}
+
+header h1 {
+  margin-bottom: 0;
+  margin-top: 0.6em;
+}
+
+header p {
+  color: rgba(255, 255, 255, 0.65);
+  margin-top: 1em;
+}
+
+.headsection {
+  width: 80%;
+  text-align: center;
+  background: #fff;
+  margin: 1em auto 0;
+  padding: 1em 2%;
+  border-radius: 0.5em 0.5em 0 0;
+  border-bottom: solid 1px rgb(223, 218, 218);
+  line-height: 1.5;
+}
+
+.nav {
+  display: none;
+}
+
+.headsection h2::after {
+  display: block;
+  content: "";
+  width: 3.25em;
+  height: 2px;
+  margin: 0.7em auto 1em;
+  border-radius: 2px;
+  background-image: linear-gradient(
+    90deg,
+    rgb(239, 168, 176),
+    rgb(168, 156, 200),
+    rgb(140, 201, 240)
+  );
+}
+
+.image {
+  width: 55%;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  margin: 0.1em auto;
+}
+
+.headimg {
+  display: block;
+  border-radius: 50%;
+  max-width: 100%;
+  border: 0.65em solid #fff;
+  box-sizing: border-box;
+}
+
+.learnmore {
+  color: rgb(34, 33, 33);
+  display: block;
+  padding: 0.55em;
+  margin: 2em 0;
+  border: 1px solid #ddd;
+  border-radius: 0.6em;
+  transition: all 0.2s;
+}
+
+.learnmore:hover {
+  background-color: rgba(221, 221, 221, 0.26);
+}
+
+.mainsection {
+  width: 80%;
+  text-align: center;
+  background: #fff;
+  margin: auto;
+  padding: 1em 2%;
+  line-height: 1.5;
+  border-bottom: solid 1px rgb(223, 218, 218);
+}
+
+.mainsection h3 {
+  font-size: 1.4em;
+}
+
+.mainsection h2::after {
+  display: block;
+  content: "";
+  width: 3.25em;
+  height: 2px;
+  margin: 0.7em auto 1em;
+  border-radius: 2px;
+  background-image: linear-gradient(
+    90deg,
+    rgb(239, 168, 176),
+    rgb(168, 156, 200),
+    rgb(140, 201, 240)
+  );
+}
+
+span::before {
+  display: block;
+  content: "";
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  border-radius: 100%;
+  border: 1px solid rgb(221, 221, 221);
+  text-align: center;
+}
+
+.mainicons {
+  display: inline-block;
+  font-size: 4em;
+  margin: 0.2em auto;
+  border: solid 1px rgb(221, 221, 221);
+  border-radius: 100%;
+  padding: 0.1em;
+}
+
+.code {
+  color: rgb(231, 145, 95);
+}
+
+.copy {
+  color: rgb(224, 178, 233);
+}
+
+.gem {
+  color: rgb(156, 182, 240);
+}
+
+.mainsection2 {
+  width: 80%;
+  text-align: center;
+  background: #fff;
+  margin: auto;
+  padding: 1em 2%;
+  line-height: 1.5;
+}
+
+.mainsection2 h2::after {
+  display: block;
+  content: "";
+  width: 3.25em;
+  height: 2px;
+  margin: 0.7em auto 1em;
+  border-radius: 2px;
+  background-image: linear-gradient(
+    90deg,
+    rgb(239, 168, 176),
+    rgb(168, 156, 200),
+    rgb(140, 201, 240)
+  );
+}
+
+.icon {
+  font-size: 2em;
+}
+
+.cardpink {
+  background: #efa8b0;
+  font-size: 1.25em;
+  color: #fff;
+  padding: 1em 1em 0.5em;
+  border-radius: 0.5em 0.5em 0 0;
+}
+
+.cardpurple {
+  background: #c79cc8;
+  padding: 1em 1em 0.5em;
+  font-size: 1.25em;
+}
+
+.cardblackblue {
+  background: #a89cc8;
+  padding: 1em 1em 0.5em;
+  font-size: 1.25em;
+}
+
+.cardblue {
+  background: #9bb2e1;
+  padding: 1em 1em 0.5em;
+  font-size: 1.25em;
+}
+.cardlightblue {
+  background: #8cc9f0;
+  padding: 1em 1em 0.5em;
+  font-size: 1.25em;
+  border-radius: 0 0 0.5em 0.5em;
+}
+
+.cards {
+  margin: 0 0 3em 0;
+  color: #fff;
+}
+
+.cards article h1 {
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cards article p {
+  color: rgba(255, 255, 255, 0.945);
+  margin-top: 0;
+}
+
+.centralized {
+  text-align: justify;
+}
+
+.lastsection {
+  width: 80%;
+  text-align: center;
+  background: #fff;
+  margin: auto;
+  padding: 1em 2%;
+  line-height: 1.5;
+  border-radius: 0 0 0.5em 0.5em;
+  border-top: solid 1px rgb(223, 218, 218);
+}
+
+.lastsection h2::after {
+  display: block;
+  content: "";
+  width: 3.25em;
+  height: 2px;
+  margin: 0.7em auto 1em;
+  border-radius: 2px;
+  background-image: linear-gradient(
+    90deg,
+    rgb(239, 168, 176),
+    rgb(168, 156, 200),
+    rgb(140, 201, 240)
+  );
+}
+
+.getstarted {
+  color: #fff;
+  display: block;
+  background: #81c8f7;
+  padding: 0.55em;
+  margin: 2em 0;
+  border-radius: 0.6em;
+  transition: background 0.2s;
+  margin-bottom: 0;
+}
+
+.getstarted:hover {
+  background: #81c8f7e7;
+}
+
+.lastlearn {
+  margin-top: 1em;
+}
+
+.firstfooter {
+  text-align: justify;
+  margin: 2em 10%;
+}
+
+.firstfooter h2 {
+  color: #fff;
+  margin-left: 0;
+}
+
+.firstfooter p {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.firstfooter a {
+  text-align: center;
+  color: #fff;
+}
+
+.text {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.bold {
+  font-weight: bold;
+  color: #fff;
+}
+
+.gridfooter {
+  width: 80%;
+  display: grid;
+  margin: 1em 0 1em 0;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 4em);
+  grid-column-gap: 0;
+  align-items: center;
+}
+
+.lastfoot {
+  margin: 2em 10%;
+}
+
+.lastfoot h2 {
+  color: #fff;
+}
+
+.gridfooter {
+  grid-template-columns: repeat(2, 6em);
+  grid-template-rows: repeat(2, 3em);
+}
+
+.gridfooter .text {
+  width: 500%;
+}
+
+.gridfooter a {
+  border-bottom: dotted 1px rgba(255, 255, 255, 0.65);
+  color: rgba(255, 255, 255, 0.65);
+  transition: border-bottom 0.3s, color 0.3s;
+}
+
+.gridfooter a:hover {
+  border-bottom-color: transparent;
+  color: rgb(255, 255, 255);
+  transition: all 0.3s;
+}
+
+footer div span {
+  color: #fff;
+}
+
+.sites {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5em;
+  margin: 2em 10% 2em 0;
+}
+
+.sites a:hover {
+  color: #fff;
+}
+
+.copyright {
+  margin: 2.5em 0 3em;
+  text-align: center;
+}
+
+.copyright p {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+@media screen and (min-width: 48em) {
+  .headsection,
+  .mainsection,
+  .mainsection2,
+  .lastsection,
+  nav {
+    padding: 1em 3%;
+  }
+
+  header h1 {
+    color: #fff;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    color: #636363;
+  }
+
+  h2 {
+    font-size: 2em;
+    color: #636363;
+  }
+
+  .cards h1 {
+    color: #fff;
+  }
+
+  .mainsection h3 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1.05em;
+    color: #636363;
+  }
+
+  .headsection {
+    margin-top: 0;
+    border-radius: unset;
+  }
+
+  nav {
+    background-color: #f7f7f7f7;
+    padding: 1em 3%;
+    border-radius: 0.5em 0.5em 0 0;
+    width: 80%;
+    margin: 1em auto;
+    margin-bottom: 0;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .nav a {
+    padding: 0 1em;
+    border-radius: 0.5em;
+    transition: all 0.2s;
+  }
+
+  .nav a:active {
+    background: #fff;
+  }
+
+  .nav a:hover {
+    background: rgba(204, 204, 204, 0.205);
+  }
+
+  .image {
+    width: 21.165em;
+    margin: 0.1em auto;
+  }
+
+  .image img {
+    max-width: 120%;
+  }
+
+  .dflex {
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+  }
+
+  .dflexbuttons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .learnmore {
+    width: 7em;
+    margin: 3em auto 1.5em;
+  }
+
+  .mainsection2 .learnmore {
+    margin-bottom: 2em;
+  }
+
+  .lastsection h2 {
+    margin-top: 1em;
+  }
+
+  .lastlearn {
+    width: 7em;
+    margin: 1em 0 2em;
+  }
+
+  .getstarted {
+    width: 7em;
+    margin: 1em 0 2em;
+  }
+
+  .firstfooter {
+    margin: 3em 10% 2em;
+  }
+
+  .firstfooter h2 {
+    margin-left: 0;
+  }
+
+  .lastfoot {
+    margin: 2em 10%;
+  }
+
+  .sites {
+    margin: 2em 10% 2em 0;
+  }
+
+  .copyright {
+    text-align: unset;
+    margin: 2em 10%;
+  }
+}
+@media screen and (min-width: 62em) {
+  .headsection,
+  .mainsection,
+  .mainsection2,
+  .lastsection,
+  nav {
+    padding: 1em 5%;
+  }
+
+  .image img {
+    max-width: 100%;
+  }
+
+  .image {
+    width: 17em;
+  }
+
+  .headsectionflex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 3em;
+    padding: 1em 2em;
+  }
+
+  .headsection h2::after {
+    content: "";
+    margin-left: 0;
+  }
+
+  .headsectiontext .learnmore {
+    margin-left: 0;
+  }
+
+  .headsectiontext h2,
+  .headsectiontext p {
+    text-align: left;
+  }
+
+  .dflex {
+    gap: 2em;
+  }
+
+  .mainflex {
+    display: flex;
+    gap: 2em;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    margin: 4em;
+  }
+
+  .cardpink,
+  .cardpurple,
+  .cardblackblue,
+  .cardblue,
+  .cardlightblue {
+    padding: 1em 4em 0.5em;
+    font-size: 0.8em;
+  }
+
+  .cardpink {
+    border-radius: 0.5em 0 0 0.5em;
+  }
+
+  .cardlightblue {
+    border-radius: 0em 0.5em 0.5em 0;
+  }
+
+  .centralized {
+    text-align: center;
+  }
+
+  .lastsection p {
+    width: 60%;
+    margin: 1em auto;
+  }
+
+  .gridfooter .text {
+    width: 400%;
+  }
+
+  .firstfooter {
+    margin: 0;
+    width: 40%;
+  }
+
+  .firstfooter .learnmore {
+    margin-left: 0;
+  }
+
+  .lastfoot {
+    margin: 0;
+    width: 40%;
+  }
+
+  .lastflex {
+    display: flex;
+    font-size: 0.9em;
+    margin: 3em 0;
+    gap: 2.5em;
+    justify-content: center;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 75em) {
+  .headsection,
+  .mainsection,
+  .mainsection2,
+  .lastsection,
+  nav {
+    width: 65%;
+    padding: 3em 5%;
+  }
+
+  .image img {
+    max-width: 150%;
+  }
+
+  .image {
+    width: 21.15em;
+  }
+
+  .gridfooter a {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 2.8em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  .mainflex span {
+    font-size: 7.5em;
+  }
+
+  .learnmore {
+    font-size: 1.5em;
+  }
+
+  .learnfoot {
+    font-size: 1.2em;
+  }
+
+  .getstarted {
+    font-size: 1.5em;
+  }
+
+  .cardpink,
+  .cardpurple,
+  .cardblackblue,
+  .cardblue,
+  .cardlightblue {
+    font-size: 1.1em;
+  }
+
+  .cards {
+    margin: 4em;
+  }
+
+  .lastflex {
+    width: 70%;
+    margin: 3em auto;
+    gap: 5em;
+  }
+}
