@@ -358,6 +358,10 @@ i {
     margin: 3em 0 5em;
   }
 
+  .footer-socials {
+    letter-spacing: 1em;
+  }
+
   .footer-socials i {
     color: rgba(255, 255, 255, 0.95);
     transition: 0.3s all;
@@ -391,8 +395,7 @@ i {
 
   .footer-flex {
     display: flex;
-    justify-content: center;
-    gap: 20em;
+    justify-content: space-around;
     align-items: center;
   }
 
