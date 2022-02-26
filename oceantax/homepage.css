@@ -1,4 +1,14 @@
 body {
+  content: "";
+  display: block;
+  width: 2 px;
+  position: absolute;
+  height: 100%;
+  background-color: #ec4f12;
+  position: absolute;
+  top: 50%;
+  left: -6%;
+  transform: translateY(-50%);
   font-family: Poppins;
 }
 
