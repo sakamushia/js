@@ -460,7 +460,6 @@ i {
   .footer-flex {
     display: flex;
     justify-content: center;
-    gap: 20em;
     align-items: center;
   }
 
