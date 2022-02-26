@@ -58,6 +58,7 @@ i {
 }
 
 .saiba-mais {
+  display: inline-block;
   color: rgba(255, 255, 255, 0.95);
   background: #ec5012e7;
   padding: 0.5em 1em;
@@ -367,6 +368,7 @@ i {
     text-align: left;
     margin: 0;
     width: 100%;
+    line-break: anywhere;
   }
 
   .card-1,
@@ -380,8 +382,18 @@ i {
 
   .last-section-destaque {
     width: 50%;
-    padding: 3.9em 1em 5.03em;
     box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 15em;
+    gap: 1em;
+  }
+
+  .last-section-destaque .saiba-mais {
+    align-self: flex-start;
   }
 
   .last-section-destaque b {
@@ -389,13 +401,12 @@ i {
   }
 
   .last-section-destaque h2 {
-    font-size: 2.5em;
-    margin-bottom: 0.8em;
+    font-size: 1.5em;
+    margin: 0;
   }
 
   .last-section-flex {
     display: flex;
-    align-items: center;
   }
 
   .last-banner {
@@ -462,4 +473,10 @@ i {
   }
 
   /* footer repetitiva */
+}
+
+@media screen and (min-width: 78em) {
+  .last-section-destaque h2 {
+    font-size: 2.5em;
+  }
 }
